@@ -2,19 +2,30 @@
 
 [English](../prompts.md) · 简体中文 · [← 返回合集](../../README.zh-CN.md)
 
-共 12 条 Qwen 4 Max 视频，作者公开了提示词。打开即可查看提示词、观看视频，并在 SandBase Lab 上用 Qwen 4 Max 一键 **复刻**。第一次写 Qwen 4 Max 提示词？先看 [提示词写法](prompt-guide.md)。
+共 20 条 Qwen 4 Max 视频，作者公开了提示词。打开即可查看提示词、观看视频，并在 SandBase Lab 上用 Qwen 4 Max 一键 **复刻**。第一次写 Qwen 4 Max 提示词？先看 [提示词写法](prompt-guide.md)。
 
 每条都按 X 上发布的原文引用作者帖子。有的作者描述的是任务而不是完整提示词，有的把全文放在回复里，请打开 X 原帖查看讨论串。帖子原文保留作者语言。
 
-- [3D 场景](#3d-scene) (3)
+- [3D 场景](#3d-scene) (5)
 - [动效](#motion-graphics) (2)
+- [游戏](#game) (1)
 - [产品界面](#ui-demo) (1)
 - [文字动效](#kinetic-type) (1)
-- [测试对比](#comparison) (5)
+- [测试对比](#comparison) (10)
 
 <a id="3d-scene"></a>
 
 ## 3D 场景
+
+### 单个HTML文件构建的3D动画网站
+
+[@IshanJX](https://x.com/IshanJX/status/2120421925407355012) · 0:57 · [观看](https://www.sandbase.ai/lab/media/x/qwen4-max/2120421925407355012/video.mp4) · [在 SandBase Lab 复刻](https://www.sandbase.ai/lab/ai-videos/qwen4-max/2120421925407355012?lang=zh-CN&utm_source=github&utm_medium=docs&utm_campaign=awesome-qwen4-max&utm_content=prompt-index)
+
+```text
+Qwen4 Max Preview 
+
+"Make Qwen 4 Build An Insane 3D Animated Website In A Single HTML File."
+```
 
 ### 深秋时节的枫树与白桦树林
 
@@ -56,22 +67,30 @@ Prompt:
 Using only the Blender MCP tools (the blender tools you have), build a cozy night diorama in Blender: a tiny ramen stall on a rainy street corner in Tokyo, on a square base like a miniature. Model everything procedurally with Python in Blender, do not import or generate assets. Include the wooden stall with a cloth noren curtain, paper lanterns, steaming bowls, stools, a vending machine, wet asphalt with puddles that reflect the neon signs, and falling rain. Use proper materials and warm and neon lighting, render with Cycles on the GPU. Deliver into your folder: a 1920x1080 final still, and a 6-second 24 fps 1280x720 camera move around the diorama encoded as an MP4. Check your renders by looking at them and fix what looks wrong.
 ```
 
-### Three.js 深海发光水母群
+### 模拟洋流与气流的3D轮船演示
 
-[@superalesha](https://x.com/superalesha/status/2120718224031715706) · 0:37 · [观看](https://www.sandbase.ai/lab/media/x/qwen4-max/2120718224031715706/video.mp4) · [在 SandBase Lab 复刻](https://www.sandbase.ai/lab/ai-videos/qwen4-max/2120718224031715706?lang=zh-CN&utm_source=github&utm_medium=docs&utm_campaign=awesome-qwen4-max&utm_content=prompt-index)
+[@FluoxWordl](https://x.com/FluoxWordl/status/2121086418566943080) · 0:25 · [观看](https://www.sandbase.ai/lab/media/x/qwen4-max/2121086418566943080/video.mp4) · [在 SandBase Lab 复刻](https://www.sandbase.ai/lab/ai-videos/qwen4-max/2121086418566943080?lang=zh-CN&utm_source=github&utm_medium=docs&utm_campaign=awesome-qwen4-max&utm_content=prompt-index)
 
 ```text
-Qwen4-Max made a deep ocean full of glowing jellyfish in Three.js. Same prompt in 2 harnesses.
+Qwen 4 max preview 
+Create a 3D ship simulating sea and air currents in an HTML file.
+```
 
-Top: DeepSeek Harness. Bottom: Qwen Code. Both on xhigh.
+### 使用Qwen 4 Max生成的体素风格埃菲尔铁塔
 
-The Qwen Code version flashed black boxes for 1 frame at a time, the DSH one blew the screen white on click. 1 bug report each and both fixed it, so the model can debug its own shaders when you point at the problem.
+[@nawariokra](https://x.com/nawariokra/status/2122206601217966418) · 1:26 · [观看](https://www.sandbase.ai/lab/media/x/qwen4-max/2122206601217966418/video.mp4) · [在 SandBase Lab 复刻](https://www.sandbase.ai/lab/ai-videos/qwen4-max/2122206601217966418?lang=zh-CN&utm_source=github&utm_medium=docs&utm_campaign=awesome-qwen4-max&utm_content=prompt-index)
 
-Tokens, DSH: 11.22M input, 10.80M cached, 110K output
-Tokens, Qwen Code: 10.84M input, 10.18M cached, 121K output
+```text
+Qwen4-Max using xHigh thinking "Eiffel Tower" voxel prompt test. Very beautiful and rich scene! But in my opinion Qwen4-Max should able to do more than this probably harness issue (opencode)
 
-Prompt:
-Create a deep-ocean scene in Three.js, in a single HTML file: a swarm of bioluminescent jellyfish drifting through dark blue water. Each jellyfish has a soft, pulsing bell made with a vertex shader and long tentacles simulated with verlet physics that trail and sway as it swims. Add glowing light patterns that ripple across the bells, volumetric light shafts from the surface far above, drifting marine snow particles, depth fog and bloom. Moving the mouse creates a gentle current that pushes the jellyfish and bends their tentacles; clicking makes the nearest ones flash and dart away. Keep it smooth at 60 fps. When you are done, open the page in the browser, look at screenshots and fix what looks wrong.
+request: 68
+input: 1.0k
+cache read: 9.1M
+cache write: 648.3k
+output: 218.4k
+cost: $2.89
+
+What do you think?
 ```
 
 <a id="motion-graphics"></a>
@@ -97,6 +116,21 @@ Qwen 4 Max，先简单来个最传统的鹈鹕测试
 提示词依旧：创建一个HTML，内容是SVG绘制一个鹈鹕骑自行车的2D动画
 
 跟 preview 相比我体感是快了一些
+```
+
+<a id="game"></a>
+
+## 游戏
+
+### 单文件3D射击游戏效果演示
+
+[@niandwo](https://x.com/niandwo/status/2122179851901968466) · 0:24 · [观看](https://www.sandbase.ai/lab/media/x/qwen4-max/2122179851901968466/video.mp4) · [在 SandBase Lab 复刻](https://www.sandbase.ai/lab/ai-videos/qwen4-max/2122179851901968466?lang=zh-CN&utm_source=github&utm_medium=docs&utm_campaign=awesome-qwen4-max&utm_content=prompt-index)
+
+```text
+Qwen4-Max  提示词：
+“写一个射击游戏，要求人物真人效果，场景3D效果，单HTML文件”
+
+感觉凑合吧
 ```
 
 <a id="ui-demo"></a>
@@ -156,6 +190,23 @@ I think Opus won this one. But it was definitely close!
 What did you think?
 ```
 
+### 九大模型生成鹈鹕骑自行车SVG动画对比
+
+[@Emproof31825](https://x.com/Emproof31825/status/2121838448940286326) · 4:07 · [观看](https://www.sandbase.ai/lab/media/x/gemini-4-carbon/2121838448940286326/video.mp4) · [在 SandBase Lab 复刻](https://www.sandbase.ai/lab/ai-videos/qwen4-max/2121838448940286326?lang=zh-CN&utm_source=github&utm_medium=docs&utm_campaign=awesome-qwen4-max&utm_content=prompt-index)
+
+```text
+同一个提示词，9 个顶级大模型同台手搓「鹈鹕骑自行车」2D SVG 动画！🚲🦩 不吹不黑，全是本地 CLI 实跑数据👇
+
+⚡ 速度之王：Grok 4.7 (low-fast) 只用 32.2 秒 交卷（162行），Opus 5.5 74.8 秒紧随其后；
+ 🎨 体量卷王：Gemini 4 Argon 直接干出 950 行（双腿+翅膀逆向运动学 IK + 5层视差 + 变速按铃）；Gemini 4 Carbon 也写了 829 行；
+ 🖥️ 全栈装修王：阿里新出的 Qwen 4-Max-Preview 写了 633 行，直接给你整了个带毛玻璃导航和 HUD 仪表盘的小应用（而且我实测它逻辑推理比 Qwen 3.8 快了 3.75 倍，写 Python 并发缓存一次跑通单测！）；
+ 📰 极简海报派：GPT-6-Astra（330行）走莫兰迪绿画报风，克制又高级。
+
+👉 评论区投票：你觉得 9 宫格里哪只鹈鹕骑得最像真的？扣编号我把测试详情发你！
+
+#AI大模型 #千问4 #Qwen4 #GPT6 #ClaudeOpus #Gemini4 #程序员 #AI编程 #前端动画 #科技测评
+```
+
 ### 原生WebGL交互式3D太阳系代码对比
 
 [@Frtnel](https://x.com/Frtnel/status/2122213962011881801) · 1:08 · [观看](https://www.sandbase.ai/lab/media/x/qwen4-max/2122213962011881801/video.mp4) · [在 SandBase Lab 复刻](https://www.sandbase.ai/lab/ai-videos/qwen4-max/2122213962011881801?lang=zh-CN&utm_source=github&utm_medium=docs&utm_campaign=awesome-qwen4-max&utm_content=prompt-index)
@@ -207,4 +258,87 @@ Qwen 4 Max vs Claude Opus 5.5 on the PELICAN BENCHMARK 🐦🚲
 Prompt: Generate a video of a pelican riding a bicycle
 
 Run AI models locally → https://t.co/RbcCOIgVkj
+```
+
+### 对比四款AI模型生成的海岸骑行动画
+
+[@Offloop](https://x.com/Offloop/status/2122296954793455971) · 0:06 · [观看](https://www.sandbase.ai/lab/media/x/gemini-4-carbon/2122296954793455971/video.mp4) · [在 SandBase Lab 复刻](https://www.sandbase.ai/lab/ai-videos/qwen4-max/2122296954793455971?lang=zh-CN&utm_source=github&utm_medium=docs&utm_campaign=awesome-qwen4-max&utm_content=prompt-index)
+
+```text
+claude opus 5.5 vs qwen4-max vs gpt-6.1 sol vs gemini 4 carbon
+
+same prompt. four coastal rides. no cherry-picking.
+
+opus 5.5 · 18m 26s · $2.3020
+qwen4-max · 7m 54s · $0.1168
+sol · 4m 51s · $0.1806
+carbon · 6m 57s · $0.3945
+
+sol was ~3.8x faster than opus. qwen was the cheapest. 
+
+but look at the coast: opus gives us the most convincing ride, sol barely shows the ocean, qwen puts a hill across the road, and carbon loses most of the ground to white.
+speed, price, or the view — which one would you ship?
+```
+
+### 使用AI编写单文件网页游戏的性能对比
+
+[@x_Kuro_](https://x.com/x_Kuro_/status/2122345434567905500) · 0:16 · [观看](https://www.sandbase.ai/lab/media/x/gemini-4-hydrogen/2122345434567905500/video.mp4) · [在 SandBase Lab 复刻](https://www.sandbase.ai/lab/ai-videos/qwen4-max/2122345434567905500?lang=zh-CN&utm_source=github&utm_medium=docs&utm_campaign=awesome-qwen4-max&utm_content=prompt-index)
+
+```text
+Qwen4-Max vs Gemini 4 Hydrogen vs Claude Fable 5.2
+
+same prompt: build Minecraft in a single HTML file. one shot, no edits
+
+Claude and Gemini nailed it. Qwen's whole world rendered black 💀
+
+turns out it was one line. it read its own textures upside down. one fix and its world was actually the prettiest
+
+which one would you trust with your game?
+```
+
+### 对比Qwen4-Max与Claude Opus体素动画生成
+
+[@ottollm](https://x.com/ottollm/status/2122387989682909513) · 0:30 · [观看](https://www.sandbase.ai/lab/media/x/qwen4-max/2122387989682909513/video.mp4) · [在 SandBase Lab 复刻](https://www.sandbase.ai/lab/ai-videos/qwen4-max/2122387989682909513?lang=zh-CN&utm_source=github&utm_medium=docs&utm_campaign=awesome-qwen4-max&utm_content=prompt-index)
+
+```text
+QWEN 4 MAX JUST DESTROYED CLAUDE OPUS 5.5 THE WAY THAT ICEBERG DESTROYED THE TITANIC.
+
+same prompt for both: "sink the titanic in voxels." one html file, every cube made in code, a 30 second movie where the camera directs itself.
+
+ok ok ok, the scoreboard:
+> qwen: 1h 02m of building, 81 KB
+> opus: 30m 10s, 65 KB, $6.30
+> opus finished in half the time
+> and it still looks like it's drowning
+
+watch the top panel. moonlit sea, reflections on the water, smoke from the funnels, lifeboats lowering with a timestamp on screen. that's a film.
+the bottom one is a glowing cracker floating in fog.
+
+still. the iceberg doesn't care about excuses.
+```
+
+### 四个AI模型使用Alpine Gold提示词的性能对比
+
+[@EnvolDev](https://x.com/EnvolDev/status/2122432152340209964) · 0:25 · [观看](https://www.sandbase.ai/lab/media/x/qwen4-max/2122432152340209964/video.mp4) · [在 SandBase Lab 复刻](https://www.sandbase.ai/lab/ai-videos/qwen4-max/2122432152340209964?lang=zh-CN&utm_source=github&utm_medium=docs&utm_campaign=awesome-qwen4-max&utm_content=prompt-index)
+
+```text
+Qwen 4 Max vs Fable 5.2 vs Gemini 4 Argon vs GPT-6 Astra 🛩️
+
+Alibaba's top model vs three American frontier models. 🇨🇳🇺🇸
+
+Same Alpine Gold prompt:
+Qwen 4 Max: $12.03 · 4h 56m 36s
+Fable 5.2: $209.50 · 3h 02m 54s
+Gemini 4 Argon: $11.61 · 2h 01m 35s
+GPT-6 Astra: $17.82 · 51m 10s
+
+Qwen 4 Max worked for almost 5 hours. 🤯
+Longer than Fable 5.2. Almost 6x longer than GPT-6 Astra.
+
+Now look at what it made. 😬
+Almost 5 hours for that? 😱
+
+Qwen 4 Max is nowhere near the frontier. Not even close.
+
+Is Qwen 4 Max overhyped? 👀
 ```
