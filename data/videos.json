@@ -31,7 +31,7 @@
   "durationMs": 33433,
   "mp4": "https://www.sandbase.ai/lab/media/x/qwen4-max/2120345166997324170/video.mp4",
   "promptShared": false,
-  "featured": 3,
+  "featured": 6,
   "poster": "https://www.sandbase.ai/lab/media/x/qwen4-max/2120345166997324170/poster.jpg",
   "labUrl": "https://www.sandbase.ai/lab/ai-videos/qwen4-max/2120345166997324170"
  },
@@ -158,7 +158,7 @@
   "mp4": "https://www.sandbase.ai/lab/media/x/qwen4-max/2120414419230605560/video.mp4",
   "promptShared": true,
   "promptText": "Qwen4-Max-Preview 今天在 Qoder 首发预览，属实太能加戏了！\n\n官方说知识更深、编程和智能体能力更强，没公布参数和跑分。我试了下老规矩，只喂一句鹈鹕骑车测试题：Generate an animated SVG of a pelican riding a bicycle\n\n结果不止画张图，直接交了个完整交互网页：\n大黄喙鹈鹕戴红头盔系蓝围巾、车筐装鱼，背景有夕阳、海边栈桥、棕榈树、海鸥和木栈道，车轮链条踏板都在动，双脚始终踩在踏板上。右侧带 18 个实时滑块调车速齿比和翅膀摆动、4 套配色，点车铃会响、点鹈鹕会叫，有快捷键，还能导出动画 SVG 和 2 倍 PNG。\n\n缺点是身体偏大，挡住车座和后半个车架，看着像浮在车上😂\n\n一句提示词卷成这样，你们打几分？",
-  "featured": 4,
+  "featured": null,
   "poster": "https://www.sandbase.ai/lab/media/x/qwen4-max/2120414419230605560/poster.jpg",
   "labUrl": "https://www.sandbase.ai/lab/ai-videos/qwen4-max/2120414419230605560"
  },
@@ -269,7 +269,7 @@
   "durationMs": 72900,
   "mp4": "https://www.sandbase.ai/lab/media/x/qwen4-max/2120492162148384834/video.mp4",
   "promptShared": false,
-  "featured": 5,
+  "featured": null,
   "poster": "https://www.sandbase.ai/lab/media/x/qwen4-max/2120492162148384834/poster.jpg",
   "labUrl": "https://www.sandbase.ai/lab/ai-videos/qwen4-max/2120492162148384834"
  },
@@ -359,7 +359,7 @@
   "durationMs": 117833,
   "mp4": "https://www.sandbase.ai/lab/media/x/qwen4-max/2120598391738818728/video.mp4",
   "promptShared": false,
-  "featured": 2,
+  "featured": null,
   "poster": "https://www.sandbase.ai/lab/media/x/qwen4-max/2120598391738818728/poster.jpg",
   "labUrl": "https://www.sandbase.ai/lab/ai-videos/qwen4-max/2120598391738818728"
  },
@@ -396,7 +396,7 @@
   "mp4": "https://www.sandbase.ai/lab/media/x/qwen4-max/2120666965060559213/video.mp4",
   "promptShared": true,
   "promptText": "Qwen4-Max just built a full ramen stall in Blender. No assets, only code through Blender MCP.\n\n1 prompt, 1 model, xhigh effort. Left: DeepSeek Harness. Right: Qwen Code.\n\nThe DSH run honestly looks really good. All the confused and unhappy voices about Qwen4 right now, mine included, I really hope it is just the preview, and GA comes out better and more stable.\n\nTokens, DSH: 11.96M input, 11.59M cached, 130K output\nTokens, Qwen Code: 3.02M input, 2.85M cached, 62K output\n\nPrompt:\nUsing only the Blender MCP tools (the blender tools you have), build a cozy night diorama in Blender: a tiny ramen stall on a rainy street corner in Tokyo, on a square base like a miniature. Model everything procedurally with Python in Blender, do not import or generate assets. Include the wooden stall with a cloth noren curtain, paper lanterns, steaming bowls, stools, a vending machine, wet asphalt with puddles that reflect the neon signs, and falling rain. Use proper materials and warm and neon lighting, render with Cycles on the GPU. Deliver into your folder: a 1920x1080 final still, and a 6-second 24 fps 1280x720 camera move around the diorama encoded as an MP4. Check your renders by looking at them and fix what looks wrong.",
-  "featured": 1,
+  "featured": null,
   "poster": "https://www.sandbase.ai/lab/media/x/qwen4-max/2120666965060559213/poster.jpg",
   "labUrl": "https://www.sandbase.ai/lab/ai-videos/qwen4-max/2120666965060559213"
  },
@@ -705,7 +705,7 @@
   "durationMs": 17200,
   "mp4": "https://www.sandbase.ai/lab/media/x/qwen4-max/2121996471830818966/video.mp4",
   "promptShared": false,
-  "featured": null,
+  "featured": 0,
   "poster": "https://www.sandbase.ai/lab/media/x/qwen4-max/2121996471830818966/poster.jpg",
   "labUrl": "https://www.sandbase.ai/lab/ai-videos/qwen4-max/2121996471830818966"
  },
@@ -759,7 +759,7 @@
   "durationMs": 25000,
   "mp4": "https://www.sandbase.ai/lab/media/x/qwen4-max/2122153465925308590/video.mp4",
   "promptShared": false,
-  "featured": 0,
+  "featured": 4,
   "poster": "https://www.sandbase.ai/lab/media/x/qwen4-max/2122153465925308590/poster.jpg",
   "labUrl": "https://www.sandbase.ai/lab/ai-videos/qwen4-max/2122153465925308590"
  },
@@ -888,7 +888,7 @@
   "mp4": "https://www.sandbase.ai/lab/media/x/qwen4-max/2122179851901968466/video.mp4",
   "promptShared": true,
   "promptText": "Qwen4-Max  提示词：\n“写一个射击游戏，要求人物真人效果，场景3D效果，单HTML文件”\n\n感觉凑合吧",
-  "featured": 6,
+  "featured": null,
   "poster": "https://www.sandbase.ai/lab/media/x/qwen4-max/2122179851901968466/poster.jpg",
   "labUrl": "https://www.sandbase.ai/lab/ai-videos/qwen4-max/2122179851901968466"
  },
@@ -927,6 +927,24 @@
   "featured": null,
   "poster": "https://www.sandbase.ai/lab/media/x/qwen4-max/2122198718829236635/poster.jpg",
   "labUrl": "https://www.sandbase.ai/lab/ai-videos/qwen4-max/2122198718829236635"
+ },
+ {
+  "id": "2122203182285918494",
+  "title": "The Thousand Sunny with water physics",
+  "title_zh": "带有水体物理效果的千里阳光号",
+  "category": "comparison",
+  "author": {
+   "handle": "PokeBenchTV",
+   "name": "PokeBench"
+  },
+  "postUrl": "https://x.com/PokeBenchTV/status/2122203182285918494",
+  "createdAt": "2026-11-16T05:40:41.000Z",
+  "durationMs": 20000,
+  "mp4": "https://www.sandbase.ai/lab/media/x/qwen4-max/2122203182285918494/video.mp4",
+  "promptShared": false,
+  "featured": null,
+  "poster": "https://www.sandbase.ai/lab/media/x/qwen4-max/2122203182285918494/poster.jpg",
+  "labUrl": "https://www.sandbase.ai/lab/ai-videos/qwen4-max/2122203182285918494"
  },
  {
   "id": "2122206601217966418",
@@ -1053,7 +1071,7 @@
   "durationMs": 15000,
   "mp4": "https://www.sandbase.ai/lab/media/x/qwen4-max/2122233643188068773/video.mp4",
   "promptShared": false,
-  "featured": 7,
+  "featured": null,
   "poster": "https://www.sandbase.ai/lab/media/x/qwen4-max/2122233643188068773/poster.jpg",
   "labUrl": "https://www.sandbase.ai/lab/ai-videos/qwen4-max/2122233643188068773"
  },
@@ -1089,7 +1107,7 @@
   "durationMs": 12666,
   "mp4": "https://www.sandbase.ai/lab/media/x/qwen4-max/2122260716245651532/video.mp4",
   "promptShared": false,
-  "featured": null,
+  "featured": 5,
   "poster": "https://www.sandbase.ai/lab/media/x/qwen4-max/2122260716245651532/poster.jpg",
   "labUrl": "https://www.sandbase.ai/lab/ai-videos/qwen4-max/2122260716245651532"
  },
@@ -1148,24 +1166,6 @@
   "featured": null,
   "poster": "https://www.sandbase.ai/lab/media/x/qwen4-max/2122278047403348332/poster.jpg",
   "labUrl": "https://www.sandbase.ai/lab/ai-videos/qwen4-max/2122278047403348332"
- },
- {
-  "id": "2122284797301084386",
-  "title": "Fighter jet flying through volumetric clouds",
-  "title_zh": "喷气式战斗机穿过体积云",
-  "category": "3d-scene",
-  "author": {
-   "handle": "superalesha",
-   "name": "Alexey Fateev"
-  },
-  "postUrl": "https://x.com/superalesha/status/2122284797301084386",
-  "createdAt": "2026-11-16T11:05:00.000Z",
-  "durationMs": 60000,
-  "mp4": "https://www.sandbase.ai/lab/media/x/kimi-k3-1/2122284797301084386/video.mp4",
-  "promptShared": false,
-  "featured": null,
-  "poster": "https://www.sandbase.ai/lab/media/x/kimi-k3-1/2122284797301084386/poster.jpg",
-  "labUrl": "https://www.sandbase.ai/lab/ai-videos/qwen4-max/2122284797301084386"
  },
  {
   "id": "2122292875660505326",
@@ -1350,6 +1350,24 @@
   "labUrl": "https://www.sandbase.ai/lab/ai-videos/qwen4-max/2122353119749361808"
  },
  {
+  "id": "2122367106859618620",
+  "title": "Cyberpunk air taxi scene in Three.js",
+  "title_zh": "Three.js 赛博朋克空中出租车飞行场景",
+  "category": "3d-scene",
+  "author": {
+   "handle": "callsign_SPIROU",
+   "name": "Spip"
+  },
+  "postUrl": "https://x.com/callsign_SPIROU/status/2122367106859618620",
+  "createdAt": "2026-11-16T16:32:04.000Z",
+  "durationMs": 75791,
+  "mp4": "https://www.sandbase.ai/lab/media/x/qwen4-max/2122367106859618620/video.mp4",
+  "promptShared": false,
+  "featured": null,
+  "poster": "https://www.sandbase.ai/lab/media/x/qwen4-max/2122367106859618620/poster.jpg",
+  "labUrl": "https://www.sandbase.ai/lab/ai-videos/qwen4-max/2122367106859618620"
+ },
+ {
   "id": "2122379791710273721",
   "title": "Iterative improvements for cinematic sushi animation",
   "title_zh": "寿司制作动画迭代生成效果对比",
@@ -1387,6 +1405,24 @@
   "labUrl": "https://www.sandbase.ai/lab/ai-videos/qwen4-max/2122387989682909513"
  },
  {
+  "id": "2122407102303940891",
+  "title": "Refraction and lighting in Gaussian splats",
+  "title_zh": "高斯溅射中的折射与光照效果展示",
+  "category": "comparison",
+  "author": {
+   "handle": "superalesha",
+   "name": "Alexey Fateev"
+  },
+  "postUrl": "https://x.com/superalesha/status/2122407102303940891",
+  "createdAt": "2026-11-16T19:11:00.000Z",
+  "durationMs": 60000,
+  "mp4": "https://www.sandbase.ai/lab/media/x/kimi-k3-1/2122407102303940891/video.mp4",
+  "promptShared": false,
+  "featured": null,
+  "poster": "https://www.sandbase.ai/lab/media/x/kimi-k3-1/2122407102303940891/poster.jpg",
+  "labUrl": "https://www.sandbase.ai/lab/ai-videos/qwen4-max/2122407102303940891"
+ },
+ {
   "id": "2122408325501391058",
   "title": "Four models building animated futuristic city",
   "title_zh": "四款模型构建未来城市SVG动画",
@@ -1422,5 +1458,498 @@
   "featured": null,
   "poster": "https://www.sandbase.ai/lab/media/x/qwen4-max/2122432152340209964/poster.jpg",
   "labUrl": "https://www.sandbase.ai/lab/ai-videos/qwen4-max/2122432152340209964"
+ },
+ {
+  "id": "2122484469215158409",
+  "title": "Benchmark comparison between Qwen4-Max and HY4-Flash",
+  "title_zh": "Qwen4-Max与HY4-Flash的3D视觉对比",
+  "category": "comparison",
+  "author": {
+   "handle": "naymur_dev",
+   "name": "Naymur Rahman"
+  },
+  "postUrl": "https://x.com/naymur_dev/status/2122484469215158409",
+  "createdAt": "2026-11-17T00:18:25.000Z",
+  "durationMs": 37407,
+  "mp4": "https://www.sandbase.ai/lab/media/x/qwen4-max/2122484469215158409/video.mp4",
+  "promptShared": false,
+  "featured": null,
+  "poster": "https://www.sandbase.ai/lab/media/x/qwen4-max/2122484469215158409/poster.jpg",
+  "labUrl": "https://www.sandbase.ai/lab/ai-videos/qwen4-max/2122484469215158409"
+ },
+ {
+  "id": "2122535125749743618",
+  "title": "Interactive Jiangnan water town night scene in Three.js",
+  "title_zh": "Three.js 可交互江南水乡夜景模型",
+  "category": "3d-scene",
+  "author": {
+   "handle": "Astronaut_1216",
+   "name": "叫我阿杭"
+  },
+  "postUrl": "https://x.com/Astronaut_1216/status/2122535125749743618",
+  "createdAt": "2026-11-17T03:39:43.000Z",
+  "durationMs": 27100,
+  "mp4": "https://www.sandbase.ai/lab/media/x/qwen4-max/2122535125749743618/video.mp4",
+  "promptShared": true,
+  "promptText": "这回真得起立了。。。兄弟们！！阿里的新模型有点强啊！！！！用它干活一点都不烧心，感觉智能真的越来越便宜了！！！\n\n我用Qwen新模型做了一个小镇的场景模型用来做游戏，整个场景搭建才花了6块钱，我只安排了一次任务 Qwen4-Max 直接让他自己迭代的，我在过程中什么都没干。。。。，\n\n2 小时 28 分钟后，它自己改成了下面这个样子，我就跟Qwen4-Max说了一句：用 three.js 做一个可交互的江南水乡夜景，白墙黑瓦沿河排开，石拱桥横跨河面，乌篷船来回漂，屋檐下的红灯笼会摇、会发光，天色从黄昏慢慢入夜，加泛光、做体积光、做出平静的水面、加雾气层次、镜头要看得到整条河和石拱桥\n\n剩下的全靠它自己：改代码、看图挑毛病、修报错、写下一轮要改什么，然后接着干\n\n以后真的再也不用每隔10分钟跟模型说一次继续了，Qwen自己就干完了，我回头看了一下他执行的过程，跑完这一轮我对\"长程任务\"这四个字有了很具体的体感\n\n1/ 它会自己验货，3 轮里它自己截图检查了 30 次，看到灯影方向写反、横着铺满整条河像斑马线，自己标出来，自己改掉\n2/ 它不推倒重来，代码从 769 行长到 1044 行，原来的拖动旋转、昼夜变化、灯笼摇晃、船来回漂，一个都没丢\n3/ 报错它自己改，第 2 轮水面代码一次报了 258 条错，它 35 秒就找到原因，改完重测，归零\n4/ 它会写交接，每一轮结束都写一份记录：改了什么、还差什么、下一轮按影响大小先做哪条。下一轮开工先读这份记录，3 轮下来衔接没断过\n你会发现，它不是那种一次惊艳就收工的模型，而是能接住反馈、一版一版往上磨的模型\n\n然后是我最想说的部分：账单，这我真的觉得比之前优化的多的部分，也最出彩的部分\n\n3 轮一共 105 次请求，输入 335 万 token，其中 95% 命中了缓存，总花费 6.19 元\n\n如果不命中缓存，光输入就要 33 块钱左右\n\n长任务为什么以前用不起？因为每走一步，都要把前面所有代码、截图结果、报错重新喂一遍，Qwen4-Max 的缓存命中价只有输入价的二十分之一，这件事在长任务里会被放大几十倍\n\n每一轮花 2 块钱左右，很稳，一点都不烧心，Qwen团队这波是真的很站在企业落地的视角去训练模型了\n\n这才是AI智能长程任务真正能落地的前提：模型要扛得住，账单也要扛得住。。这一波Qwen4-Max上线，后面谁真的能在企业落地，我觉得Qwen必有一席之地了",
+  "featured": null,
+  "poster": "https://www.sandbase.ai/lab/media/x/qwen4-max/2122535125749743618/poster.jpg",
+  "labUrl": "https://www.sandbase.ai/lab/ai-videos/qwen4-max/2122535125749743618"
+ },
+ {
+  "id": "2122561982586888690",
+  "title": "Real-time physics steel foundry simulation",
+  "title_zh": "实时物理钢厂模拟崩溃场景",
+  "category": "3d-scene",
+  "author": {
+   "handle": "aijoey",
+   "name": "Joey"
+  },
+  "postUrl": "https://x.com/aijoey/status/2122561982586888690",
+  "createdAt": "2026-11-17T05:26:26.000Z",
+  "durationMs": 46000,
+  "mp4": "https://www.sandbase.ai/lab/media/x/qwen4-max/2122561982586888690/video.mp4",
+  "promptShared": false,
+  "featured": null,
+  "poster": "https://www.sandbase.ai/lab/media/x/qwen4-max/2122561982586888690/poster.jpg",
+  "labUrl": "https://www.sandbase.ai/lab/ai-videos/qwen4-max/2122561982586888690"
+ },
+ {
+  "id": "2122615741568733237",
+  "title": "Interactive 3D Chinese poetry pop-up book",
+  "title_zh": "Qwen4-Max 制作的可交互古诗立体书",
+  "category": "3d-scene",
+  "author": {
+   "handle": "lxfater",
+   "name": "铁锤人"
+  },
+  "postUrl": "https://x.com/lxfater/status/2122615741568733237",
+  "createdAt": "2026-11-17T09:00:03.000Z",
+  "durationMs": 147498,
+  "mp4": "https://www.sandbase.ai/lab/media/x/qwen4-max/2122615741568733237/video.mp4",
+  "promptShared": false,
+  "featured": null,
+  "poster": "https://www.sandbase.ai/lab/media/x/qwen4-max/2122615741568733237/poster.jpg",
+  "labUrl": "https://www.sandbase.ai/lab/ai-videos/qwen4-max/2122615741568733237"
+ },
+ {
+  "id": "2122622998297620639",
+  "title": "AI-generated short film on how to be great",
+  "title_zh": "Qwen4-Max 生成短片：如何成为卓越者",
+  "category": "explainer",
+  "author": {
+   "handle": "Av1dlive",
+   "name": "Avid"
+  },
+  "postUrl": "https://x.com/Av1dlive/status/2122622998297620639",
+  "createdAt": "2026-11-17T09:28:53.000Z",
+  "durationMs": 128000,
+  "mp4": "https://www.sandbase.ai/lab/media/x/qwen4-max/2122622998297620639/video.mp4",
+  "promptShared": false,
+  "featured": 7,
+  "poster": "https://www.sandbase.ai/lab/media/x/qwen4-max/2122622998297620639/poster.jpg",
+  "labUrl": "https://www.sandbase.ai/lab/ai-videos/qwen4-max/2122622998297620639"
+ },
+ {
+  "id": "2122646910792327458",
+  "title": "Testing Qwen4-Max on 3D and game development",
+  "title_zh": "Qwen4-Max 3D 与游戏开发测试",
+  "category": "3d-scene",
+  "author": {
+   "handle": "tec_aryan",
+   "name": "Aryan Rakib"
+  },
+  "postUrl": "https://x.com/tec_aryan/status/2122646910792327458",
+  "createdAt": "2026-11-17T11:03:55.000Z",
+  "durationMs": 36176,
+  "mp4": "https://www.sandbase.ai/lab/media/x/qwen4-max/2122646910792327458/video.mp4",
+  "promptShared": false,
+  "featured": null,
+  "poster": "https://www.sandbase.ai/lab/media/x/qwen4-max/2122646910792327458/poster.jpg",
+  "labUrl": "https://www.sandbase.ai/lab/ai-videos/qwen4-max/2122646910792327458"
+ },
+ {
+  "id": "2122672575050297855",
+  "title": "Mobile game ad vs games generated by three models",
+  "title_zh": "真实手游广告对比三款模型生成游戏",
+  "category": "comparison",
+  "author": {
+   "handle": "noclipepe",
+   "name": "noclipepe"
+  },
+  "postUrl": "https://x.com/noclipepe/status/2122672575050297855",
+  "createdAt": "2026-11-17T12:45:53.000Z",
+  "durationMs": 46333,
+  "mp4": "https://www.sandbase.ai/lab/media/x/qwen4-max/2122672575050297855/video.mp4",
+  "promptShared": false,
+  "featured": null,
+  "poster": "https://www.sandbase.ai/lab/media/x/qwen4-max/2122672575050297855/poster.jpg",
+  "labUrl": "https://www.sandbase.ai/lab/ai-videos/qwen4-max/2122672575050297855"
+ },
+ {
+  "id": "2122679638812196967",
+  "title": "Four-model benchmark comparison on Alpine Gold prompt",
+  "title_zh": "四款模型在 Alpine Gold 提示词下的成本与耗时对比",
+  "category": "comparison",
+  "author": {
+   "handle": "realdrovex",
+   "name": "Drovex"
+  },
+  "postUrl": "https://x.com/realdrovex/status/2122679638812196967",
+  "createdAt": "2026-11-17T13:13:58.000Z",
+  "durationMs": 25000,
+  "mp4": "https://www.sandbase.ai/lab/media/x/qwen4-max/2122679638812196967/video.mp4",
+  "promptShared": false,
+  "featured": null,
+  "poster": "https://www.sandbase.ai/lab/media/x/gemini-4-argon/2122694712801067283/poster.jpg",
+  "labUrl": "https://www.sandbase.ai/lab/ai-videos/qwen4-max/2122679638812196967"
+ },
+ {
+  "id": "2122685709526106233",
+  "title": "Multi-step manufacturing, finance, and legal workflow in Qwen4-Max",
+  "title_zh": "Qwen4-Max 制造与法务多步骤工作流测试",
+  "category": "ui-demo",
+  "author": {
+   "handle": "nrqa__",
+   "name": "Nelly;"
+  },
+  "postUrl": "https://x.com/nrqa__/status/2122685709526106233",
+  "createdAt": "2026-11-17T13:38:05.000Z",
+  "durationMs": 31616,
+  "mp4": "https://www.sandbase.ai/lab/media/x/qwen4-max/2122685709526106233/video.mp4",
+  "promptShared": false,
+  "featured": null,
+  "poster": "https://www.sandbase.ai/lab/media/x/qwen4-max/2122685709526106233/poster.jpg",
+  "labUrl": "https://www.sandbase.ai/lab/ai-videos/qwen4-max/2122685709526106233"
+ },
+ {
+  "id": "2122692657029771341",
+  "title": "Claude and Qwen benchmark on juggling octopus",
+  "title_zh": "Claude 与 Qwen 骑车章鱼杂耍生成对比",
+  "category": "comparison",
+  "author": {
+   "handle": "joseph_mugen",
+   "name": "Mugen"
+  },
+  "postUrl": "https://x.com/joseph_mugen/status/2122692657029771341",
+  "createdAt": "2026-11-17T14:05:41.000Z",
+  "durationMs": 16000,
+  "mp4": "https://www.sandbase.ai/lab/media/x/qwen4-max/2122692657029771341/video.mp4",
+  "promptShared": true,
+  "promptText": "Claude Opus 5.5 and Qwen4-Max got the same prompt: an octopus on a bike juggling 8 balls\n\nClaude nailed the bike, the spokes and all 8 balls\n\nQwen thought for 17 minutes and forgot the bike. The whole prompt was riding a bike\n\nis Qwen4-Max overhyped?",
+  "featured": null,
+  "poster": "https://www.sandbase.ai/lab/media/x/qwen4-max/2122692657029771341/poster.jpg",
+  "labUrl": "https://www.sandbase.ai/lab/ai-videos/qwen4-max/2122692657029771341"
+ },
+ {
+  "id": "2122694324332765681",
+  "title": "Model comparison of an animated juggling T. rex",
+  "title_zh": "多模型生成霸王龙骑独轮车杂耍动画对比",
+  "category": "comparison",
+  "author": {
+   "handle": "RezAIT00",
+   "name": "Rez"
+  },
+  "postUrl": "https://x.com/RezAIT00/status/2122694324332765681",
+  "createdAt": "2026-11-17T14:12:19.000Z",
+  "durationMs": 18000,
+  "mp4": "https://www.sandbase.ai/lab/media/x/gemini-4-hydrogen/2122694324332765681/video.mp4",
+  "promptShared": true,
+  "promptText": "Fable 5.2 vs Gemini 4 Hydrogen vs Qwen 4 Max, and one wild card  \n\nSame objective: an animated SVG of a T. rex riding a unicycle while juggling flaming torches, as detailed as possible.  \n\nOne took 10 minutes. One took 40.\n\nTry and guess which one is which. Bonus points if you figure out the wild card model. Answers in ~3 hours",
+  "featured": null,
+  "poster": "https://www.sandbase.ai/lab/media/x/gemini-4-hydrogen/2122694324332765681/poster.jpg",
+  "labUrl": "https://www.sandbase.ai/lab/ai-videos/qwen4-max/2122694324332765681"
+ },
+ {
+  "id": "2122694712801067283",
+  "title": "Comparing four frontier models on the Alpine Gold prompt",
+  "title_zh": "四款前沿模型 Alpine Gold 提示词生成对比",
+  "category": "comparison",
+  "author": {
+   "handle": "jonson_coder",
+   "name": "Jonson"
+  },
+  "postUrl": "https://x.com/jonson_coder/status/2122694712801067283",
+  "createdAt": "2026-11-17T14:13:51.000Z",
+  "durationMs": 25000,
+  "mp4": "https://www.sandbase.ai/lab/media/x/gemini-4-argon/2122694712801067283/video.mp4",
+  "promptShared": false,
+  "featured": null,
+  "poster": "https://www.sandbase.ai/lab/media/x/gemini-4-argon/2122694712801067283/poster.jpg",
+  "labUrl": "https://www.sandbase.ai/lab/ai-videos/qwen4-max/2122694712801067283"
+ },
+ {
+  "id": "2122713268636782610",
+  "title": "A 3D scene of West Lake in Three.js",
+  "title_zh": "基于Three.js构建的西湖3D场景",
+  "category": "3d-scene",
+  "author": {
+   "handle": "rionaifantasy",
+   "name": "Rion Wu"
+  },
+  "postUrl": "https://x.com/rionaifantasy/status/2122713268636782610",
+  "createdAt": "2026-11-17T15:27:36.000Z",
+  "durationMs": 81514,
+  "mp4": "https://www.sandbase.ai/lab/media/x/qwen4-max/2122713268636782610/video.mp4",
+  "promptShared": false,
+  "featured": null,
+  "poster": "https://www.sandbase.ai/lab/media/x/qwen4-max/2122713268636782610/poster.jpg",
+  "labUrl": "https://www.sandbase.ai/lab/ai-videos/qwen4-max/2122713268636782610"
+ },
+ {
+  "id": "2122720684023615747",
+  "title": "Three.js generation speed comparison between models",
+  "title_zh": "模型生成 Three.js HTML 的性能与速度对比",
+  "category": "comparison",
+  "author": {
+   "handle": "beyondwudan",
+   "name": "sudo"
+  },
+  "postUrl": "https://x.com/beyondwudan/status/2122720684023615747",
+  "createdAt": "2026-11-17T15:57:03.000Z",
+  "durationMs": 48000,
+  "mp4": "https://www.sandbase.ai/lab/media/x/qwen4-max/2122720684023615747/video.mp4",
+  "promptShared": false,
+  "featured": null,
+  "poster": "https://www.sandbase.ai/lab/media/x/qwen4-max/2122720684023615747/poster.jpg",
+  "labUrl": "https://www.sandbase.ai/lab/ai-videos/qwen4-max/2122720684023615747"
+ },
+ {
+  "id": "2122726713314672711",
+  "title": "A game built with Qwen4-Max",
+  "title_zh": "使用 Qwen4-Max 构建的完整游戏",
+  "category": "game",
+  "author": {
+   "handle": "Ricardo_Momo1",
+   "name": "Ricardo Momo"
+  },
+  "postUrl": "https://x.com/Ricardo_Momo1/status/2122726713314672711",
+  "createdAt": "2026-11-17T16:21:01.000Z",
+  "durationMs": 46997,
+  "mp4": "https://www.sandbase.ai/lab/media/x/qwen4-max/2122726713314672711/video.mp4",
+  "promptShared": false,
+  "featured": 2,
+  "poster": "https://www.sandbase.ai/lab/media/x/qwen4-max/2122726713314672711/poster.jpg",
+  "labUrl": "https://www.sandbase.ai/lab/ai-videos/qwen4-max/2122726713314672711"
+ },
+ {
+  "id": "2122726818335871041",
+  "title": "Gummy worms with realistic physics simulation",
+  "title_zh": "具真实物理效果的软糖蠕虫模拟",
+  "category": "particles",
+  "author": {
+   "handle": "semichenkko",
+   "name": "Semichenko"
+  },
+  "postUrl": "https://x.com/semichenkko/status/2122726818335871041",
+  "createdAt": "2026-11-17T16:21:26.000Z",
+  "durationMs": 14500,
+  "mp4": "https://www.sandbase.ai/lab/media/x/qwen4-max/2122726818335871041/video.mp4",
+  "promptShared": true,
+  "promptText": "\"this model is trash\"\nno. your prompt is trash\n\nfirst prompt: minecraft spaghetti\nfinal: gummy worms with real physics\n\nqwen4-max. zero excuses left",
+  "featured": 3,
+  "poster": "https://www.sandbase.ai/lab/media/x/qwen4-max/2122726818335871041/poster.jpg",
+  "labUrl": "https://www.sandbase.ai/lab/ai-videos/qwen4-max/2122726818335871041"
+ },
+ {
+  "id": "2122734346427650183",
+  "title": "Interactive 3D AI agent explainer in Three.js",
+  "title_zh": "Three.js 交互式 3D AI 智能体原理解释器",
+  "category": "explainer",
+  "author": {
+   "handle": "dani_avila7",
+   "name": "Daniel San"
+  },
+  "postUrl": "https://x.com/dani_avila7/status/2122734346427650183",
+  "createdAt": "2026-11-17T16:51:21.000Z",
+  "durationMs": 40216,
+  "mp4": "https://www.sandbase.ai/lab/media/x/qwen4-max/2122734346427650183/video.mp4",
+  "promptShared": true,
+  "promptText": "I decided to try Qwen4-max, and here are my results\n\nI gave it JUST ONE prompt: \"build an interactive 3D explainer of how an AI coding agent works, as a single HTML file with Three.js\"\n\nIt worked for about 20 minutes without any input from me, the result is in the video:\n\n- The agent loop shown as a machine: user, model, tools and context window\n\n- A step-by-step mode and an autoplay that walk through a task\n\n- You can click each part to read what it does\n\n- A slider to change the context window size and see what happens when it fills up\n\nSome notes from using it:\n\n- I ran it in Qwen Code with the Alibaba Cloud Token Plan, setup took a few minutes\n\n- It was one prompt with no follow-ups. It wrote about 1,300 lines in a single file, and the page worked the first time I opened it\n\n- The explanations are accurate, and it marks where the 3D model simplifies how agents really work\n\n- The scene came out a bit dark and it runs at about 45 fps, not 60, I haven't asked it to fix that yet\n\nTry Qwen4-Max with Alibaba Cloud Token Plan, starting from $3/month:",
+  "featured": null,
+  "poster": "https://www.sandbase.ai/lab/media/x/qwen4-max/2122734346427650183/poster.jpg",
+  "labUrl": "https://www.sandbase.ai/lab/ai-videos/qwen4-max/2122734346427650183"
+ },
+ {
+  "id": "2122742401424838951",
+  "title": "Snow globe generation comparison across three models",
+  "title_zh": "三款模型生成水晶球场景对比",
+  "category": "comparison",
+  "author": {
+   "handle": "AIMind_Ai",
+   "name": "AiMind"
+  },
+  "postUrl": "https://x.com/AIMind_Ai/status/2122742401424838951",
+  "createdAt": "2026-11-17T17:23:21.000Z",
+  "durationMs": 30000,
+  "mp4": "https://www.sandbase.ai/lab/media/x/qwen4-max/2122742401424838951/video.mp4",
+  "promptShared": false,
+  "featured": null,
+  "poster": "https://www.sandbase.ai/lab/media/x/qwen4-max/2122742401424838951/poster.jpg",
+  "labUrl": "https://www.sandbase.ai/lab/ai-videos/qwen4-max/2122742401424838951"
+ },
+ {
+  "id": "2122762084597350430",
+  "title": "Cost and time comparison for steam train animation",
+  "title_zh": "四款模型生成蒸汽火车穿越高架桥对比",
+  "category": "comparison",
+  "author": {
+   "handle": "m1lo_exe",
+   "name": "Milo"
+  },
+  "postUrl": "https://x.com/m1lo_exe/status/2122762084597350430",
+  "createdAt": "2026-11-17T18:41:34.000Z",
+  "durationMs": 25002,
+  "mp4": "https://www.sandbase.ai/lab/media/x/qwen4-max/2122762084597350430/video.mp4",
+  "promptShared": true,
+  "promptText": "One of these steam trains cost $214. one cost $9.87.\n\nsame prompt, 4 models: a steam train crossing a stone viaduct over an autumn valley.\n\n> Qwen 4 Max: $9.87 · 5h 12m 08s\n> Fable 5.2: $214.30 · 3h 18m 41s\n> Gemini 4 Argon: $12.46 · 2h 07m 19s\n> GPT-6 Astra: $18.95 · 54m 22s\n\nthe cheapest one took the longest.\n\nwhich one would you ship?",
+  "featured": null,
+  "poster": "https://www.sandbase.ai/lab/media/x/qwen4-max/2122762084597350430/poster.jpg",
+  "labUrl": "https://www.sandbase.ai/lab/ai-videos/qwen4-max/2122762084597350430"
+ },
+ {
+  "id": "2122767659393552538",
+  "title": "Benchmarking code generation across four frontier models",
+  "title_zh": "四款大模型代码生成基准测试对比",
+  "category": "comparison",
+  "author": {
+   "handle": "AlicanKiraz0",
+   "name": "Alican Kiraz"
+  },
+  "postUrl": "https://x.com/AlicanKiraz0/status/2122767659393552538",
+  "createdAt": "2026-11-17T19:03:43.000Z",
+  "durationMs": 65993,
+  "mp4": "https://www.sandbase.ai/lab/media/x/gemini-4-carbon/2122767659393552538/video.mp4",
+  "promptShared": false,
+  "featured": null,
+  "poster": "https://www.sandbase.ai/lab/media/x/gemini-4-carbon/2122767659393552538/poster.jpg",
+  "labUrl": "https://www.sandbase.ai/lab/ai-videos/qwen4-max/2122767659393552538"
+ },
+ {
+  "id": "2122802364457566375",
+  "title": "A cat wizard fighting slimes in a game",
+  "title_zh": "猫咪魔法师击退史莱姆的小游戏",
+  "category": "game",
+  "author": {
+   "handle": "nowlovepan",
+   "name": "감자"
+  },
+  "postUrl": "https://x.com/nowlovepan/status/2122802364457566375",
+  "createdAt": "2026-11-17T21:21:38.000Z",
+  "durationMs": 50500,
+  "mp4": "https://www.sandbase.ai/lab/media/x/qwen4-max/2122802364457566375/video.mp4",
+  "promptShared": true,
+  "promptText": "Qwen4-Max도 성능 많이 올라왔네요\n이 게임 코드 한 줄도 안 치고 만듦. 5분도 안 걸림\n\nQwen Code에 Qwen4-Max 연결해놓고 \"고양이 마법사가 슬라임 물리치는 게임 만들어줘\" 한 문장 넣었는데\n\n혼자 계획 세우고 700줄 넘는 코드를 쓰더니 HTML 파일 하나로 완성\n\n스페이스바 자동 조준, 5마리마다 빨라지는 슬라임, 하트까지 조건 하나도 안 빠짐\n\n코딩 몰라도 이젠 아이디어를 말로 설명하면 이 정도는 나오는 듯\n#광고",
+  "featured": null,
+  "poster": "https://www.sandbase.ai/lab/media/x/qwen4-max/2122802364457566375/poster.jpg",
+  "labUrl": "https://www.sandbase.ai/lab/ai-videos/qwen4-max/2122802364457566375"
+ },
+ {
+  "id": "2122810717539893756",
+  "title": "Oil painting style 3D autumn scene in Three.js",
+  "title_zh": "Three.js油画风3D互动秋景",
+  "category": "3d-scene",
+  "author": {
+   "handle": "NFT_Chen",
+   "name": "SuSu_酥酥👅"
+  },
+  "postUrl": "https://x.com/NFT_Chen/status/2122810717539893756",
+  "createdAt": "2026-11-17T21:54:49.000Z",
+  "durationMs": 76066,
+  "mp4": "https://www.sandbase.ai/lab/media/x/qwen4-max/2122810717539893756/video.mp4",
+  "promptShared": false,
+  "featured": null,
+  "poster": "https://www.sandbase.ai/lab/media/x/qwen4-max/2122810717539893756/poster.jpg",
+  "labUrl": "https://www.sandbase.ai/lab/ai-videos/qwen4-max/2122810717539893756"
+ },
+ {
+  "id": "2122839085555261658",
+  "title": "A retro racing game inspired by Top Racer",
+  "title_zh": "受Top Racer启发的复古赛车游戏",
+  "category": "game",
+  "author": {
+   "handle": "quimedesu",
+   "name": "Ark"
+  },
+  "postUrl": "https://x.com/quimedesu/status/2122839085555261658",
+  "createdAt": "2026-11-17T23:47:33.000Z",
+  "durationMs": 72033,
+  "mp4": "https://www.sandbase.ai/lab/media/x/qwen4-max/2122839085555261658/video.mp4",
+  "promptShared": false,
+  "featured": null,
+  "poster": "https://www.sandbase.ai/lab/media/x/qwen4-max/2122839085555261658/poster.jpg",
+  "labUrl": "https://www.sandbase.ai/lab/ai-videos/qwen4-max/2122839085555261658"
+ },
+ {
+  "id": "2122988988587987059",
+  "title": "Playable 3D physics game",
+  "title_zh": "可玩的3D物理引擎小游戏",
+  "category": "game",
+  "author": {
+   "handle": "mhdfaran",
+   "name": "Farhan"
+  },
+  "postUrl": "https://x.com/mhdfaran/status/2122988988587987059",
+  "createdAt": "2026-11-18T09:43:12.000Z",
+  "durationMs": 66100,
+  "mp4": "https://www.sandbase.ai/lab/media/x/qwen4-max/2122988988587987059/video.mp4",
+  "promptShared": false,
+  "featured": 1,
+  "poster": "https://www.sandbase.ai/lab/media/x/qwen4-max/2122988988587987059/poster.jpg",
+  "labUrl": "https://www.sandbase.ai/lab/ai-videos/qwen4-max/2122988988587987059"
+ },
+ {
+  "id": "2123018176510451735",
+  "title": "Interactive 3D black hole simulation",
+  "title_zh": "交互式3D黑洞模拟可视化",
+  "category": "3d-scene",
+  "author": {
+   "handle": "AliceInfoAi",
+   "name": "Alice The Ai Expert"
+  },
+  "postUrl": "https://x.com/AliceInfoAi/status/2123018176510451735",
+  "createdAt": "2026-11-18T11:39:11.000Z",
+  "durationMs": 67533,
+  "mp4": "https://www.sandbase.ai/lab/media/x/qwen4-max/2123018176510451735/video.mp4",
+  "promptShared": false,
+  "featured": null,
+  "poster": "https://www.sandbase.ai/lab/media/x/qwen4-max/2123018176510451735/poster.jpg",
+  "labUrl": "https://www.sandbase.ai/lab/ai-videos/qwen4-max/2123018176510451735"
+ },
+ {
+  "id": "2123029557926330588",
+  "title": "Creative HTML websites with parallax effects",
+  "title_zh": "带多层视差效果的创意HTML网站",
+  "category": "ui-demo",
+  "author": {
+   "handle": "samuraipreneur",
+   "name": "The SamurAI"
+  },
+  "postUrl": "https://x.com/samuraipreneur/status/2123029557926330588",
+  "createdAt": "2026-11-18T12:24:25.000Z",
+  "durationMs": 12640,
+  "mp4": "https://www.sandbase.ai/lab/media/x/qwen4-max/2123029557926330588/video.mp4",
+  "promptShared": false,
+  "featured": null,
+  "poster": "https://www.sandbase.ai/lab/media/x/qwen4-max/2123029557926330588/poster.jpg",
+  "labUrl": "https://www.sandbase.ai/lab/ai-videos/qwen4-max/2123029557926330588"
+ },
+ {
+  "id": "2123049287148011648",
+  "title": "Exploded 3D view of an electric motor",
+  "title_zh": "电动机的3D爆炸图交互展示",
+  "category": "3d-scene",
+  "author": {
+   "handle": "Ubermenscchh",
+   "name": "Hasan"
+  },
+  "postUrl": "https://x.com/Ubermenscchh/status/2123049287148011648",
+  "createdAt": "2026-11-18T13:42:49.000Z",
+  "durationMs": 41966,
+  "mp4": "https://www.sandbase.ai/lab/media/x/qwen4-max/2123049287148011648/video.mp4",
+  "promptShared": false,
+  "featured": null,
+  "poster": "https://www.sandbase.ai/lab/media/x/qwen4-max/2123049287148011648/poster.jpg",
+  "labUrl": "https://www.sandbase.ai/lab/ai-videos/qwen4-max/2123049287148011648"
  }
 ]

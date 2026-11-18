@@ -2,16 +2,18 @@
 
 [English](../prompts.md) · 简体中文 · [← 返回合集](../../README.zh-CN.md)
 
-共 20 条 Qwen 4 Max 视频，作者公开了提示词。打开即可查看提示词、观看视频，并在 SandBase Lab 上用 Qwen 4 Max 一键 **复刻**。第一次写 Qwen 4 Max 提示词？先看 [提示词写法](prompt-guide.md)。
+共 27 条 Qwen 4 Max 视频，作者公开了提示词。打开即可查看提示词、观看视频，并在 SandBase Lab 上用 Qwen 4 Max 一键 **复刻**。第一次写 Qwen 4 Max 提示词？先看 [提示词写法](prompt-guide.md)。
 
 每条都按 X 上发布的原文引用作者帖子。有的作者描述的是任务而不是完整提示词，有的把全文放在回复里，请打开 X 原帖查看讨论串。帖子原文保留作者语言。
 
-- [3D 场景](#3d-scene) (5)
+- [3D 场景](#3d-scene) (6)
 - [动效](#motion-graphics) (2)
-- [游戏](#game) (1)
+- [游戏](#game) (2)
 - [产品界面](#ui-demo) (1)
+- [粒子与形状](#particles) (1)
 - [文字动效](#kinetic-type) (1)
-- [测试对比](#comparison) (10)
+- [讲解](#explainer) (1)
+- [测试对比](#comparison) (13)
 
 <a id="3d-scene"></a>
 
@@ -93,6 +95,40 @@ cost: $2.89
 What do you think?
 ```
 
+### Three.js 可交互江南水乡夜景模型
+
+[@Astronaut_1216](https://x.com/Astronaut_1216/status/2122535125749743618) · 0:27 · [观看](https://www.sandbase.ai/lab/media/x/qwen4-max/2122535125749743618/video.mp4) · [在 SandBase Lab 复刻](https://www.sandbase.ai/lab/ai-videos/qwen4-max/2122535125749743618?lang=zh-CN&utm_source=github&utm_medium=docs&utm_campaign=awesome-qwen4-max&utm_content=prompt-index)
+
+```text
+这回真得起立了。。。兄弟们！！阿里的新模型有点强啊！！！！用它干活一点都不烧心，感觉智能真的越来越便宜了！！！
+
+我用Qwen新模型做了一个小镇的场景模型用来做游戏，整个场景搭建才花了6块钱，我只安排了一次任务 Qwen4-Max 直接让他自己迭代的，我在过程中什么都没干。。。。，
+
+2 小时 28 分钟后，它自己改成了下面这个样子，我就跟Qwen4-Max说了一句：用 three.js 做一个可交互的江南水乡夜景，白墙黑瓦沿河排开，石拱桥横跨河面，乌篷船来回漂，屋檐下的红灯笼会摇、会发光，天色从黄昏慢慢入夜，加泛光、做体积光、做出平静的水面、加雾气层次、镜头要看得到整条河和石拱桥
+
+剩下的全靠它自己：改代码、看图挑毛病、修报错、写下一轮要改什么，然后接着干
+
+以后真的再也不用每隔10分钟跟模型说一次继续了，Qwen自己就干完了，我回头看了一下他执行的过程，跑完这一轮我对"长程任务"这四个字有了很具体的体感
+
+1/ 它会自己验货，3 轮里它自己截图检查了 30 次，看到灯影方向写反、横着铺满整条河像斑马线，自己标出来，自己改掉
+2/ 它不推倒重来，代码从 769 行长到 1044 行，原来的拖动旋转、昼夜变化、灯笼摇晃、船来回漂，一个都没丢
+3/ 报错它自己改，第 2 轮水面代码一次报了 258 条错，它 35 秒就找到原因，改完重测，归零
+4/ 它会写交接，每一轮结束都写一份记录：改了什么、还差什么、下一轮按影响大小先做哪条。下一轮开工先读这份记录，3 轮下来衔接没断过
+你会发现，它不是那种一次惊艳就收工的模型，而是能接住反馈、一版一版往上磨的模型
+
+然后是我最想说的部分：账单，这我真的觉得比之前优化的多的部分，也最出彩的部分
+
+3 轮一共 105 次请求，输入 335 万 token，其中 95% 命中了缓存，总花费 6.19 元
+
+如果不命中缓存，光输入就要 33 块钱左右
+
+长任务为什么以前用不起？因为每走一步，都要把前面所有代码、截图结果、报错重新喂一遍，Qwen4-Max 的缓存命中价只有输入价的二十分之一，这件事在长任务里会被放大几十倍
+
+每一轮花 2 块钱左右，很稳，一点都不烧心，Qwen团队这波是真的很站在企业落地的视角去训练模型了
+
+这才是AI智能长程任务真正能落地的前提：模型要扛得住，账单也要扛得住。。这一波Qwen4-Max上线，后面谁真的能在企业落地，我觉得Qwen必有一席之地了
+```
+
 <a id="motion-graphics"></a>
 
 ## 动效
@@ -133,6 +169,24 @@ Qwen4-Max  提示词：
 感觉凑合吧
 ```
 
+### 猫咪魔法师击退史莱姆的小游戏
+
+[@nowlovepan](https://x.com/nowlovepan/status/2122802364457566375) · 0:50 · [观看](https://www.sandbase.ai/lab/media/x/qwen4-max/2122802364457566375/video.mp4) · [在 SandBase Lab 复刻](https://www.sandbase.ai/lab/ai-videos/qwen4-max/2122802364457566375?lang=zh-CN&utm_source=github&utm_medium=docs&utm_campaign=awesome-qwen4-max&utm_content=prompt-index)
+
+```text
+Qwen4-Max도 성능 많이 올라왔네요
+이 게임 코드 한 줄도 안 치고 만듦. 5분도 안 걸림
+
+Qwen Code에 Qwen4-Max 연결해놓고 "고양이 마법사가 슬라임 물리치는 게임 만들어줘" 한 문장 넣었는데
+
+혼자 계획 세우고 700줄 넘는 코드를 쓰더니 HTML 파일 하나로 완성
+
+스페이스바 자동 조준, 5마리마다 빨라지는 슬라임, 하트까지 조건 하나도 안 빠짐
+
+코딩 몰라도 이젠 아이디어를 말로 설명하면 이 정도는 나오는 듯
+#광고
+```
+
 <a id="ui-demo"></a>
 
 ## 产品界面
@@ -147,6 +201,24 @@ Qwen 4 Max (default reasoning, OpenCode harness)
 Prompt: A playable violin web app with Apple Garageband inspired 3D graphical elements 
 
 172k tokens
+```
+
+<a id="particles"></a>
+
+## 粒子与形状
+
+### 具真实物理效果的软糖蠕虫模拟
+
+[@semichenkko](https://x.com/semichenkko/status/2122726818335871041) · 0:14 · [观看](https://www.sandbase.ai/lab/media/x/qwen4-max/2122726818335871041/video.mp4) · [在 SandBase Lab 复刻](https://www.sandbase.ai/lab/ai-videos/qwen4-max/2122726818335871041?lang=zh-CN&utm_source=github&utm_medium=docs&utm_campaign=awesome-qwen4-max&utm_content=prompt-index)
+
+```text
+"this model is trash"
+no. your prompt is trash
+
+first prompt: minecraft spaghetti
+final: gummy worms with real physics
+
+qwen4-max. zero excuses left
 ```
 
 <a id="kinetic-type"></a>
@@ -168,6 +240,42 @@ Qwen4-Max-Preview 今天在 Qoder 首发预览，属实太能加戏了！
 缺点是身体偏大，挡住车座和后半个车架，看着像浮在车上😂
 
 一句提示词卷成这样，你们打几分？
+```
+
+<a id="explainer"></a>
+
+## 讲解
+
+### Three.js 交互式 3D AI 智能体原理解释器
+
+[@dani_avila7](https://x.com/dani_avila7/status/2122734346427650183) · 0:40 · [观看](https://www.sandbase.ai/lab/media/x/qwen4-max/2122734346427650183/video.mp4) · [在 SandBase Lab 复刻](https://www.sandbase.ai/lab/ai-videos/qwen4-max/2122734346427650183?lang=zh-CN&utm_source=github&utm_medium=docs&utm_campaign=awesome-qwen4-max&utm_content=prompt-index)
+
+```text
+I decided to try Qwen4-max, and here are my results
+
+I gave it JUST ONE prompt: "build an interactive 3D explainer of how an AI coding agent works, as a single HTML file with Three.js"
+
+It worked for about 20 minutes without any input from me, the result is in the video:
+
+- The agent loop shown as a machine: user, model, tools and context window
+
+- A step-by-step mode and an autoplay that walk through a task
+
+- You can click each part to read what it does
+
+- A slider to change the context window size and see what happens when it fills up
+
+Some notes from using it:
+
+- I ran it in Qwen Code with the Alibaba Cloud Token Plan, setup took a few minutes
+
+- It was one prompt with no follow-ups. It wrote about 1,300 lines in a single file, and the page worked the first time I opened it
+
+- The explanations are accurate, and it marks where the 3D model simplifies how agents really work
+
+- The scene came out a bit dark and it runs at about 45 fps, not 60, I haven't asked it to fix that yet
+
+Try Qwen4-Max with Alibaba Cloud Token Plan, starting from $3/month:
 ```
 
 <a id="comparison"></a>
@@ -341,4 +449,51 @@ Almost 5 hours for that? 😱
 Qwen 4 Max is nowhere near the frontier. Not even close.
 
 Is Qwen 4 Max overhyped? 👀
+```
+
+### Claude 与 Qwen 骑车章鱼杂耍生成对比
+
+[@joseph_mugen](https://x.com/joseph_mugen/status/2122692657029771341) · 0:16 · [观看](https://www.sandbase.ai/lab/media/x/qwen4-max/2122692657029771341/video.mp4) · [在 SandBase Lab 复刻](https://www.sandbase.ai/lab/ai-videos/qwen4-max/2122692657029771341?lang=zh-CN&utm_source=github&utm_medium=docs&utm_campaign=awesome-qwen4-max&utm_content=prompt-index)
+
+```text
+Claude Opus 5.5 and Qwen4-Max got the same prompt: an octopus on a bike juggling 8 balls
+
+Claude nailed the bike, the spokes and all 8 balls
+
+Qwen thought for 17 minutes and forgot the bike. The whole prompt was riding a bike
+
+is Qwen4-Max overhyped?
+```
+
+### 多模型生成霸王龙骑独轮车杂耍动画对比
+
+[@RezAIT00](https://x.com/RezAIT00/status/2122694324332765681) · 0:18 · [观看](https://www.sandbase.ai/lab/media/x/gemini-4-hydrogen/2122694324332765681/video.mp4) · [在 SandBase Lab 复刻](https://www.sandbase.ai/lab/ai-videos/qwen4-max/2122694324332765681?lang=zh-CN&utm_source=github&utm_medium=docs&utm_campaign=awesome-qwen4-max&utm_content=prompt-index)
+
+```text
+Fable 5.2 vs Gemini 4 Hydrogen vs Qwen 4 Max, and one wild card  
+
+Same objective: an animated SVG of a T. rex riding a unicycle while juggling flaming torches, as detailed as possible.  
+
+One took 10 minutes. One took 40.
+
+Try and guess which one is which. Bonus points if you figure out the wild card model. Answers in ~3 hours
+```
+
+### 四款模型生成蒸汽火车穿越高架桥对比
+
+[@m1lo_exe](https://x.com/m1lo_exe/status/2122762084597350430) · 0:25 · [观看](https://www.sandbase.ai/lab/media/x/qwen4-max/2122762084597350430/video.mp4) · [在 SandBase Lab 复刻](https://www.sandbase.ai/lab/ai-videos/qwen4-max/2122762084597350430?lang=zh-CN&utm_source=github&utm_medium=docs&utm_campaign=awesome-qwen4-max&utm_content=prompt-index)
+
+```text
+One of these steam trains cost $214. one cost $9.87.
+
+same prompt, 4 models: a steam train crossing a stone viaduct over an autumn valley.
+
+> Qwen 4 Max: $9.87 · 5h 12m 08s
+> Fable 5.2: $214.30 · 3h 18m 41s
+> Gemini 4 Argon: $12.46 · 2h 07m 19s
+> GPT-6 Astra: $18.95 · 54m 22s
+
+the cheapest one took the longest.
+
+which one would you ship?
 ```
