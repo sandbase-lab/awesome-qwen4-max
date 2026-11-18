@@ -31,7 +31,7 @@
   "durationMs": 33433,
   "mp4": "https://www.sandbase.ai/lab/media/x/qwen4-max/2120345166997324170/video.mp4",
   "promptShared": false,
-  "featured": 2,
+  "featured": 3,
   "poster": "https://www.sandbase.ai/lab/media/x/qwen4-max/2120345166997324170/poster.jpg",
   "labUrl": "https://www.sandbase.ai/lab/ai-videos/qwen4-max/2120345166997324170"
  },
@@ -139,7 +139,7 @@
   "durationMs": 51700,
   "mp4": "https://www.sandbase.ai/lab/media/x/qwen4-max/2120400676379365543/video.mp4",
   "promptShared": false,
-  "featured": 3,
+  "featured": null,
   "poster": "https://www.sandbase.ai/lab/media/x/qwen4-max/2120400676379365543/poster.jpg",
   "labUrl": "https://www.sandbase.ai/lab/ai-videos/qwen4-max/2120400676379365543"
  },
@@ -269,7 +269,7 @@
   "durationMs": 72900,
   "mp4": "https://www.sandbase.ai/lab/media/x/qwen4-max/2120492162148384834/video.mp4",
   "promptShared": false,
-  "featured": null,
+  "featured": 5,
   "poster": "https://www.sandbase.ai/lab/media/x/qwen4-max/2120492162148384834/poster.jpg",
   "labUrl": "https://www.sandbase.ai/lab/ai-videos/qwen4-max/2120492162148384834"
  },
@@ -359,7 +359,7 @@
   "durationMs": 117833,
   "mp4": "https://www.sandbase.ai/lab/media/x/qwen4-max/2120598391738818728/video.mp4",
   "promptShared": false,
-  "featured": 1,
+  "featured": 2,
   "poster": "https://www.sandbase.ai/lab/media/x/qwen4-max/2120598391738818728/poster.jpg",
   "labUrl": "https://www.sandbase.ai/lab/ai-videos/qwen4-max/2120598391738818728"
  },
@@ -396,7 +396,7 @@
   "mp4": "https://www.sandbase.ai/lab/media/x/qwen4-max/2120666965060559213/video.mp4",
   "promptShared": true,
   "promptText": "Qwen4-Max just built a full ramen stall in Blender. No assets, only code through Blender MCP.\n\n1 prompt, 1 model, xhigh effort. Left: DeepSeek Harness. Right: Qwen Code.\n\nThe DSH run honestly looks really good. All the confused and unhappy voices about Qwen4 right now, mine included, I really hope it is just the preview, and GA comes out better and more stable.\n\nTokens, DSH: 11.96M input, 11.59M cached, 130K output\nTokens, Qwen Code: 3.02M input, 2.85M cached, 62K output\n\nPrompt:\nUsing only the Blender MCP tools (the blender tools you have), build a cozy night diorama in Blender: a tiny ramen stall on a rainy street corner in Tokyo, on a square base like a miniature. Model everything procedurally with Python in Blender, do not import or generate assets. Include the wooden stall with a cloth noren curtain, paper lanterns, steaming bowls, stools, a vending machine, wet asphalt with puddles that reflect the neon signs, and falling rain. Use proper materials and warm and neon lighting, render with Cycles on the GPU. Deliver into your folder: a 1920x1080 final still, and a 6-second 24 fps 1280x720 camera move around the diorama encoded as an MP4. Check your renders by looking at them and fix what looks wrong.",
-  "featured": 0,
+  "featured": 1,
   "poster": "https://www.sandbase.ai/lab/media/x/qwen4-max/2120666965060559213/poster.jpg",
   "labUrl": "https://www.sandbase.ai/lab/ai-videos/qwen4-max/2120666965060559213"
  },
@@ -759,7 +759,7 @@
   "durationMs": 25000,
   "mp4": "https://www.sandbase.ai/lab/media/x/qwen4-max/2122153465925308590/video.mp4",
   "promptShared": false,
-  "featured": null,
+  "featured": 0,
   "poster": "https://www.sandbase.ai/lab/media/x/qwen4-max/2122153465925308590/poster.jpg",
   "labUrl": "https://www.sandbase.ai/lab/ai-videos/qwen4-max/2122153465925308590"
  },
@@ -888,7 +888,7 @@
   "mp4": "https://www.sandbase.ai/lab/media/x/qwen4-max/2122179851901968466/video.mp4",
   "promptShared": true,
   "promptText": "Qwen4-Max  提示词：\n“写一个射击游戏，要求人物真人效果，场景3D效果，单HTML文件”\n\n感觉凑合吧",
-  "featured": 5,
+  "featured": 6,
   "poster": "https://www.sandbase.ai/lab/media/x/qwen4-max/2122179851901968466/poster.jpg",
   "labUrl": "https://www.sandbase.ai/lab/ai-videos/qwen4-max/2122179851901968466"
  },
@@ -1053,7 +1053,7 @@
   "durationMs": 15000,
   "mp4": "https://www.sandbase.ai/lab/media/x/qwen4-max/2122233643188068773/video.mp4",
   "promptShared": false,
-  "featured": 6,
+  "featured": 7,
   "poster": "https://www.sandbase.ai/lab/media/x/qwen4-max/2122233643188068773/poster.jpg",
   "labUrl": "https://www.sandbase.ai/lab/ai-videos/qwen4-max/2122233643188068773"
  },
@@ -1309,7 +1309,7 @@
   "durationMs": 43968,
   "mp4": "https://www.sandbase.ai/lab/media/x/qwen4-max/2122347804891009166/video.mp4",
   "promptShared": false,
-  "featured": 7,
+  "featured": null,
   "poster": "https://www.sandbase.ai/lab/media/x/qwen4-max/2122347804891009166/poster.jpg",
   "labUrl": "https://www.sandbase.ai/lab/ai-videos/qwen4-max/2122347804891009166"
  },
